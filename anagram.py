@@ -1,10 +1,11 @@
-s = "anagram"
-t = "nagaram"
+s = "aacc"
+t = "ccac"
 
 seen = list(s)
 
 for i in t:
-    if i in s:
+    print(i)
+    if i in seen:
         seen.remove(i)
         print(seen)
 
